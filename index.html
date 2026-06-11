@@ -202,9 +202,8 @@
     .cta-final h2 { font-size: clamp(24px, 3.4vw, 34px); margin-bottom: 14px; }
     .cta-final p { color: var(--muted); margin-bottom: 28px; }
 
-    /* contacts / requisites */
-    .contacts-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; max-width: 880px; margin: 0 auto; }
-    @media (max-width: 720px) { .contacts-grid { grid-template-columns: 1fr; } }
+    /* contacts */
+    .contacts-grid { max-width: 560px; margin: 0 auto; }
     .contact-card {
         background: var(--surface);
         border: 1px solid var(--border);
@@ -419,28 +418,9 @@
 
 <section id="contacts">
     <div class="wrap">
-        <h2 class="sec-title">Контакты и реквизиты</h2>
-        <p class="sec-sub">Продавец услуги и техническая поддержка</p>
+        <h2 class="sec-title">Контакты</h2>
+        <p class="sec-sub">Техническая поддержка сервиса</p>
         <div class="contacts-grid">
-            <div class="contact-card">
-                <h3>📋 Реквизиты продавца</h3>
-                <div class="row">
-                    <span class="k">Исполнитель</span>
-                    <span class="v">ИП Матвеев Савва Янович</span>
-                </div>
-                <div class="row">
-                    <span class="k">ИНН</span>
-                    <span class="v">503413692306</span>
-                </div>
-                <div class="row">
-                    <span class="k">ОГРНИП</span>
-                    <span class="v">326508100339559</span>
-                </div>
-                <div class="row">
-                    <span class="k">Документы</span>
-                    <span class="v"><a href="/offer.html">Публичная оферта</a></span>
-                </div>
-            </div>
             <div class="contact-card">
                 <h3>🛟 Техподдержка</h3>
                 <div class="row">
@@ -471,7 +451,7 @@
             <nav class="f-links">
                 <a href="/offer.html">Публичная оферта</a>
                 <a href="#pricing">Тарифы</a>
-                <a href="#contacts">Контакты и реквизиты</a>
+                <a href="#contacts">Контакты</a>
                 <a href="#" data-bot-link>Бот в Max</a>
             </nav>
         </div>
